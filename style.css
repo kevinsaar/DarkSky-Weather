@@ -1,0 +1,68 @@
+html,
+body {
+	height: 100%;
+}
+
+html {
+	background: #4fadff9c;
+}
+
+body {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+p {
+	margin: 0;
+}
+
+#current-weather-details {
+	display: grid;
+	grid-template-columns: 260px;
+	justify-items: center;
+	text-align: center;
+	background-color: #36a1ff;
+	border-radius: 5px;
+	padding: 20px;
+	color: #fff;
+}
+
+#weather-summary {
+	font-size: 1.5em;
+	margin-bottom: 20px;
+	background-color: rgba(255,255,255,0.2);
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+.smaller {
+	font-size: 1rem;
+}
+
+#current-temperature {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+#desc {
+	margin-bottom: 20px;
+	font-size: 1.5em;
+}
+
+#getWeather {
+	color: #fff;
+	padding: 10px 15px;
+	background: #222;
+	border: none;
+	border-radius: 3px;
+	letter-spacing: 1.3px;
+	cursor: pointer;
+	opacity: .9;
+	transition: all ease-in-out .2s;
+}
+
+#getWeather:hover {
+	opacity: 1;
+	transition: all ease-in-out .2s;
+}
